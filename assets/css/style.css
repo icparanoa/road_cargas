@@ -473,7 +473,7 @@ section {
 
 .section-bg:before {
   content: "";
-  background: #1b1b1b;
+  background: var(--azul-escuro);
   position: absolute;
   bottom: 60px;
   top: 60px;
@@ -656,12 +656,29 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services .card p{
+  color: var(--branco);
+}
+
+.services .card h3{
+  color: var(--branco);
+}
 
 .services .card {
   border-radius: 3px;
   border: 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
+  background: var(--azul-escuro);
+}
+
+.services .card-body {
+  padding-top: 12px;
+}
+
+.servicess .card-title {
+  font-weight: 700;
+  text-align: center;
 }
 
 .services .faq-list {
@@ -703,11 +720,11 @@ section {
 }
 
 .services .faq-list a.collapsed {
-  color: var(--azul-claro);
+  color: var(--branco);
 }
 
 .services .faq-list a.collapsed:hover {
-  color: var(--azul-claro);
+  color: var(--branco);
 }
 
 .services .faq-list a.collapsed .icon-show {
@@ -723,13 +740,13 @@ section {
   margin-bottom: 20px;
   padding: 30px;
   border-radius: 6px;
-  background: #252525;
+  background: var(--azul-escuro);
   transition: 0.3s;
   position: relative;
 }
 
 .services .icon-box:hover {
-  background: #2b2b2b;
+  background: var(--cinza-escuro);
 }
 
 .services .icon-box i {
