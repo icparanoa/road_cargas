@@ -490,7 +490,7 @@ section {
 
 .section-about:before {
   content: "";
-  background: url("../img/fundo.jpeg") center no-repeat;
+  background: url("../img/fundo.jpeg")  center no-repeat;
   background-size: auto;
   position: absolute;
   bottom: 60px;
