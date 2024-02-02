@@ -54,21 +54,100 @@
     <section id="hero" class="d-flex align-items-center">
 
         <div class="container" data-aos="zoom-out" data-aos-delay="100">
-            <div class="row">
-                <div class="col-xl-6">
-                    <h1 style="color: black; background: #335777; border-radius: 15px;">Road Cargas agradece seu contato</h1>
-                    <h2 style="color: black; background: #335777; border-radius: 15px;">Em breve entraremos em contato</h2>
-                </div>
-            </div>
         </div>
 
     </section><!-- End Hero -->
 
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <a href="https://wa.me/5511994718676" style="position:fixed;width:60px;height:60px;bottom:20px;right:15px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
-      z-index:1000;" target="_blank">
-      <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+    z-index:1000;" target="_blank">
+        <i style="margin-top:16px" class="fa fa-whatsapp"></i>
     </a>
+
+    <main id="main">
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Cadastre-se</h2>
+                </div>
+
+                <div class="row mt-5">
+
+                    <div class="col-lg-4">
+                        <div class="info">
+                            <div class="address">
+                                <i class="bi bi-truck"></i>
+                                <h4>Cadastro:</h4>
+                                <p>Coloque suas informações e breve entraremos em contato, qualquer dúvida chame no
+                                    Whatsapp</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-8 mt-5 mt-lg-0">
+
+                        <form action="./assets/forms/contact.php" method="post">
+                            <input type="hidden" name="assunto" value="Contato Parceiro">
+                            <div class="form-group mt-3">
+                                <input type="text" name="name" class="form-control" id="name"
+                                    placeholder="Nome do motorista" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="number" class="form-control" name="telefone" id="telefone"
+                                    placeholder="Telefone\Whatsapp" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <select name="caminhao" class="form-control">
+                                    <option selected disabled>Selecione o tipo de caminhão...</option>
+                                    <option value="van">Van</option>
+                                    <option value="furgão">Furgão</option>
+                                    <option value="picape">Picape</option>
+                                    <option value="VUC">VUC</option>
+                                    <option value="truck">Caminhão Truck</option>
+                                    <option calue="carreta">Carreta</option>
+                                    <option value="carreta ls">Carreta LS</option>
+                                    <option value="rodotrem">Carreta Rodotrem</option>
+                                    <option value="bitrem">Carreta Bitrem</option>
+                                </select>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="regiao" id="regiao"
+                                    placeholder="Região que atende" required>
+                            </div>
+                            <br>
+                            <div class="text-center">
+                                <button type="submit">Enviar Cadastro</button>
+                            </div>
+                        </form>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Contact Section -->
+
+        <!-- ======= Cta Section ======= -->
+        <section id="cta" class="cta">
+            <div class="container" data-aos="zoom-in">
+
+                <div class="text-center">
+                    <h3>Cadastre se como motorista parceiro</h3>
+                    <a class="cta-btn" href="#contact">Clique Aqui!</a>
+                </div>
+
+            </div>
+        </section><!-- End Cta Section -->
+
+    </main><!-- End #main -->
 
     <!-- ======= Footer ======= -->
     <footer id="footer">

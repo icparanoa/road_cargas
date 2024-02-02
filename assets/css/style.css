@@ -831,6 +831,48 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Cta
+--------------------------------------------------------------*/
+.cta {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/fundo.png") fixed center center;
+  background-size: cover;
+  padding: 20px 0;
+}
+
+.cta h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cta p {
+  color: #fff;
+}
+
+.cta .cta-btn {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid var(--cinza-claro);
+  color: #151515;
+  background: var(--cinza-claro);
+}
+
+.cta .cta-btn:hover {
+  background: #07d800;
+  border-color: #07d800;
+  color: #fff;
+}
+
+
+/*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq .faq-list {
@@ -937,14 +979,7 @@ section {
   margin-top: 40px;
 }
 
-.contact .php-email-form {
-  width: 100%;
-  background: #fff;
-  padding: 12px 12px 12px 12px;
-  border-radius: 15px;
-}
-
-.contact .php-email-form button {
+.contact button {
   background: var(--azul-escuro);
   border: 0;
   padding: 10px 24px;
@@ -953,7 +988,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button:hover {
+.contact button:hover {
   background: #07d800;
   border-color: #07d800;
   color: #fff;
