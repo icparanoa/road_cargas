@@ -479,6 +479,7 @@ section {
 }
 
 .section-title p {
+  text-align: center;
   margin-bottom: 0;
   padding-bottom: 15px;
 }
@@ -559,37 +560,6 @@ section {
   padding-right: 10px;
   color: var(--azul-claro);
   content: "/";
-}
-
-/*--------------------------------------------------------------
-# Clients
---------------------------------------------------------------*/
-.clients .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.clients .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid var(--azul-claro);
-}
-
-.clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--azul-claro);
-}
-
-.clients .swiper-slide img {
-  opacity: 0.5;
-  transition: 0.3s;
-  filter: grayscale(100);
-}
-
-.clients .swiper-slide img:hover {
-  opacity: 1;
-  filter: none;
 }
 
 /*--------------------------------------------------------------
